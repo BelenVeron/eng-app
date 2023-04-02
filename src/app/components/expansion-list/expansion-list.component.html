@@ -1,22 +1,50 @@
 <mat-accordion>
     <!-- Header -->
-    <mat-expansion-panel hideToggle>
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Phrasal Verbs
-        </mat-panel-title>
-        <mat-panel-description>
-          In alphabetical order
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-      <p>A list of phrasal verbs in alphabetical order</p>
-    </mat-expansion-panel>
-
+    <div class="expansion-display">
+      <mat-expansion-panel hideToggle class="adjust-width">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Phrasal Verbs
+          </mat-panel-title>
+          <mat-panel-description>
+            In alphabetical order
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>A list of phrasal verbs in alphabetical order</p>
+      </mat-expansion-panel>
+  
+    </div>
+    
     <!-- Elements -->
-    <mat-expansion-panel 
+    <cdk-virtual-scroll-viewport appendOnly itemSize="50" class="expansion-viewport">
+      <div *cdkVirtualFor="let item of abc; index as i" >
+        <div [ngClass]="{'adjust-width': true, 'add-margin-bottom': abc.length === i + 1}">
+
+          <mat-expansion-panel 
+            (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false"
+            >
+          
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                {{item}}
+              </mat-panel-title>
+              <mat-panel-description>
+                Phrasal Verbs with {{item}}
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p *ngFor="let phrasalVerb of getVerbs(item)">{{phrasalVerb.verb}} {{phrasalVerb.firstPrep}} {{phrasalVerb.secondPrep}}</p>
+          </mat-expansion-panel>
+        </div>
+      
+      </div>
+    </cdk-virtual-scroll-viewport>
+    
+    <!-- <mat-expansion-panel 
       (opened)="panelOpenState = true"
       (closed)="panelOpenState = false"
       *ngFor="let item of abc">
+     
       <mat-expansion-panel-header>
         <mat-panel-title>
           {{item}}
@@ -26,6 +54,6 @@
         </mat-panel-description>
       </mat-expansion-panel-header>
       <p *ngFor="let phrasalVerb of getVerbs(item)">{{phrasalVerb.verb}} {{phrasalVerb.firstPrep}} {{phrasalVerb.secondPrep}}</p>
-    </mat-expansion-panel>
+    </mat-expansion-panel> -->
 </mat-accordion>
   

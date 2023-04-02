@@ -38,12 +38,48 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         image: ''
     },
     {
+        verb: 'check',
+        firstPrep: 'in',
+        secondPrep: '',
+        definition: 'Arrive in the hotel on the first day and get the key.',
+        example: 'We check in on the 20th.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'check',
+        firstPrep: 'off',
+        secondPrep: '',
+        definition: 'Write check mark in a list.',
+        example: 'Well, I wanted to check off another item on my to-do list before I leave.',
+        separable: true,
+        image: ''
+    },
+    {
+        verb: 'check',
+        firstPrep: 'out',
+        secondPrep: '',
+        definition: 'Leave the hotel on the last day and return the key.',
+        example: 'We check out on the 22nd.',
+        separable: false,
+        image: ''
+    },
+    {
         verb: 'come',
         firstPrep: 'up',
         secondPrep: 'with',
         definition: 'Think of something to say or an idea.',
         example: `I'm not good at coming up with answers.`,
         separable: false,
+        image: ''
+    },
+    {
+        verb: 'cross',
+        firstPrep: 'out',
+        secondPrep: 'with',
+        definition: 'To put a line through a mistake or something you don\' like.',
+        example: 'You need to cross out one line to get the minimum prize.',
+        separable: true,
         image: ''
     },
     {
@@ -62,6 +98,15 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'To take someone or something to a particular place.',
         example: `I dropped off my suit at the dry cleaner's.`,
         separable: true,
+        image: ''
+    },
+    {
+        verb: 'end',
+        firstPrep: 'up',
+        secondPrep: '',
+        definition: 'Eventurally something happens, and the ending is surprising or unexpected.',
+        example: 'After a few hours, I ended up choosing this title for my blog.',
+        separable: false,
         image: ''
     },
     {
@@ -113,9 +158,36 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         verb: 'get',
         firstPrep: 'up',
         secondPrep: '',
-        definition: 'Out of bed',
-        example: 'I usually get up very fast after wake up',
+        definition: 'Out of bed.',
+        example: 'I usually get up very fast after wake up.',
         separable: true,
+        image: ''
+    },
+    {
+        verb: 'give',
+        firstPrep: 'away',
+        secondPrep: '',
+        definition: 'To give something to someone for free. It\'s not a present.',
+        example: 'The company is giving away $3000 to the team that completes the hike the fastest.',
+        separable: true,
+        image: ''
+    },
+    {
+        verb: 'give',
+        firstPrep: 'up',
+        secondPrep: '',
+        definition: 'To quit because you are tired or have no motivation.',
+        example: 'If a team decides to give up, they have to work an extra Saturday.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'go',
+        firstPrep: 'ahead',
+        secondPrep: '',
+        definition: 'To continue with a plan even though there ara challenges. It\'s not a motivation.',
+        example: 'If it rains, the plans will still go ahead.',
+        separable: false,
         image: ''
     },
     {
@@ -137,6 +209,24 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         image: ''
     },
     {
+        verb: 'hang',
+        firstPrep: 'out',
+        secondPrep: '',
+        definition: 'To spend time with people doing nothing important.',
+        example: 'Apart from the hiking, the employees can hang out around the hotel.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'juggle',
+        firstPrep: 'around',
+        secondPrep: '',
+        definition: 'To move people, dates or appointments so everyone is involved.',
+        example: 'I\'s spent weeks juggling everyone\'s schedule around.',
+        separable: true,
+        image: ''
+    },
+    {
         verb: 'look',
         firstPrep: 'forward',
         secondPrep: 'to',
@@ -149,9 +239,36 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         verb: 'look',
         firstPrep: 'up',
         secondPrep: '',
-        definition: 'Search and find specific information',
+        definition: 'Search and find specific information.',
         example: 'I need to look up the location.',
         separable: true,
+        image: ''
+    },
+    {
+        verb: 'miss',
+        firstPrep: 'out',
+        secondPrep: 'on',
+        definition: 'To not be involved.',
+        example: 'I don\'t want anyone to miss out on this hiking trip.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'move',
+        firstPrep: 'in',
+        secondPrep: '',
+        definition: 'To go to the new home with all of your things.',
+        example: 'I think you shoulk move in with us.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'move',
+        firstPrep: 'out',
+        secondPrep: '',
+        definition: 'To leave your place / home with all of your things.',
+        example: 'I move out when I was 18, and that\'s how I like it.',
+        separable: false,
         image: ''
     },
     {
@@ -159,8 +276,17 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         firstPrep: 'up',
         secondPrep: '',
         definition: 'Collect.',
-        example: 'I pick up my kids from school',
+        example: 'I pick up my kids from school.',
         separable: true,
+        image: ''
+    },
+    {
+        verb: 'pig',
+        firstPrep: 'out',
+        secondPrep: 'on',
+        definition: 'To eat a lot in a short period of time.',
+        example: 'I do get to pig out on my mom\'s good cooking.',
+        separable: false,
         image: ''
     },
     {
@@ -174,11 +300,29 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
     },
     {
         verb: 'put',
+        firstPrep: 'back',
+        secondPrep: '',
+        definition: 'To return something to its place.',
+        example: 'My daughter didn\' put the markers back.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'put',
         firstPrep: 'up',
         secondPrep: 'with',
         definition: 'Something or someone is negative, but you continue to accept it.',
         example: 'I only put up with my roommate because she pays most of the rent.',
         separable: false,
+        image: ''
+    },
+    {
+        verb: 'rip',
+        firstPrep: 'up',
+        secondPrep: '',
+        definition: 'To tear something soft into small pieces.',
+        example: 'Let us just rip up the contract and pretend it never happened.',
+        separable: true,
         image: ''
     },
     {
@@ -200,11 +344,74 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         image: ''
     },
     {
+        verb: 'scroll',
+        firstPrep: 'down',
+        secondPrep: '',
+        definition: 'To go down your screen.',
+        example: 'If you have many sites, you might need to scroll down.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'scroll',
+        firstPrep: 'up',
+        secondPrep: '',
+        definition: 'To go up your screen.',
+        example: 'From there, they\'ll be able to scroll up to see the original post.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'sleep',
+        firstPrep: 'in',
+        secondPrep: '',
+        definition: 'To sleep longer than usual in the morning.',
+        example: `I'm so happy tomorrow is Saturday so I can sleep in.`,
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'sneak',
+        firstPrep: 'out',
+        secondPrep: '',
+        definition: 'To slowly and quietly leave a place so nobody sees you..',
+        example: 'I usually sneak out when they are sleeping.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'sneak',
+        firstPrep: 'in',
+        secondPrep: 'of',
+        definition: 'To slowly and quietly get in a place so nobody sees you.',
+        example: 'The meeting had already started so I sneaked in.',
+        separable: false,
+        image: ''
+    },
+    {
         verb: 'stand',
         firstPrep: 'out',
         secondPrep: '',
         definition: 'To be noticeable because you are different / more impressive.',
-        example: `I don't know how many people are going to be interviewed, but I hope I stand out`,
+        example: `I don't know how many people are going to be interviewed, but I hope I stand out.`,
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'stock',
+        firstPrep: 'up',
+        secondPrep: 'on',
+        definition: 'To collect a large supply of something to use in the future.',
+        example: 'One thing my parents do is stock up on all the essentials.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'storm',
+        firstPrep: 'out',
+        secondPrep: 'of',
+        definition: 'To leave a room in an angry way.',
+        example: 'In one of our meetings I got so angry that I stormed out of the room.',
         separable: false,
         image: ''
     },
@@ -224,6 +431,33 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'Put something in a trash can.',
         example: 'Yesterday I threw away an old pair of shoes.',
         separable: true,
+        image: ''
+    },
+    {
+        verb: 'take',
+        firstPrep: 'out',
+        secondPrep: '',
+        definition: 'To remove something from its place.',
+        example: 'I take water out of the fridge.',
+        separable: true,
+        image: ''
+    },
+    {
+        verb: 'talk',
+        firstPrep: 'into',
+        secondPrep: '',
+        definition: 'To convince someone to do something. Always talk someone into something.',
+        example: 'You will never talk me into moving in with you.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'talk',
+        firstPrep: 'out',
+        secondPrep: 'of',
+        definition: 'To convince someone to do NOT to do something. Always talk someone into of something.',
+        example: 'I\'m trying to talk my best friend out of quitting uni.',
+        separable: false,
         image: ''
     },
     {
@@ -266,9 +500,45 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         verb: 'wake',
         firstPrep: 'up',
         secondPrep: '',
-        definition: 'Stop sleeping',
-        example: 'I usually wake up at 8:45',
+        definition: 'Stop sleeping.',
+        example: 'I usually wake up at 8:45.',
         separable: false,
         image: ''
-    }
+    },
+    {
+        verb: 'work',
+        firstPrep: 'towards',
+        secondPrep: '',
+        definition: 'To work to achive a goal.',
+        example: 'With a care team to help you work toward your goals.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'write',
+        firstPrep: 'down',
+        secondPrep: '',
+        definition: 'To write something short on a piece of paper',
+        example: 'Be prepared to write down the answers you receive during your visit.',
+        separable: true,
+        image: ''
+    },
+    {
+        verb: 'zoom',
+        firstPrep: 'in',
+        secondPrep: '',
+        definition: 'To make an image bigger to see the details',
+        example: 'To zoom in, spread two fingers apart on the screen.',
+        separable: false,
+        image: ''
+    },
+    {
+        verb: 'zoom',
+        firstPrep: 'out',
+        secondPrep: '',
+        definition: 'To make an image smaller',
+        example: 'To zoom out, drag your two fingers closer to each other.',
+        separable: false,
+        image: ''
+    },
 ]
