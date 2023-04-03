@@ -1,7 +1,7 @@
 .expansion-display {
   display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .expansion-viewport {
@@ -13,6 +13,11 @@
   display: none;
 }
 
+.expansion-p {
+  display: flex;
+  cursor: pointer;
+}
+
 .adjust-width {
   width: 95%;
 }
@@ -20,3 +25,4 @@
 .add-margin-bottom {
   margin-bottom: 5px;
 }
+

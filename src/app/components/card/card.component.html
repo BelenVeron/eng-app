@@ -1,0 +1,13 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{phrasalVerb.verb}} {{phrasalVerb.firstPrep}} {{phrasalVerb.secondPrep}}</mat-card-title>
+        <mat-card-subtitle>{{(phrasalVerb.separable)?'Separable':'No Separable'}}</mat-card-subtitle>
+        <img mat-card-lg-image [src]="(phrasalVerb.image === '')?image:phrasalVerb.image" >
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Definition: {{phrasalVerb.definition}}</p>
+      <p>Example: {{phrasalVerb.example}}</p>
+    </mat-card-content>
+</mat-card>

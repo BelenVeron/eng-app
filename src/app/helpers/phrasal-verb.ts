@@ -1,5 +1,15 @@
 import { PhrasalVerb } from "../intefaces/phrasal-verb"
 
+export const FIRST_PHRASAL_VERBS: PhrasalVerb = {
+    verb: 'bear',
+    firstPrep: 'with',
+    secondPrep: '',
+    definition: 'Please be patient while I do something else.',
+    example: 'Ok, bear with me a sec please.',
+    separable: false,
+    image: 'https://linguaholic.com/linguablog/wp-content/uploads/2021/11/Be-Patient-vs.-Patience.jpg'
+}
+
 export const PHRASAL_VERBS: PhrasalVerb[] = [
     {
         verb: 'bear',

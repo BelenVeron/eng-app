@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { ABC } from 'src/app/helpers/abc';
 import { PHRASAL_VERBS } from 'src/app/helpers/phrasal-verb';
 import { PhrasalVerb } from 'src/app/intefaces/phrasal-verb';
@@ -11,6 +11,7 @@ export class ExpansionListComponent {
   panelOpenState = false;
   abc = ABC;
   phrasalVerbs = PHRASAL_VERBS;
+  @Output() phrasalVerbEvent = new EventEmitter<PhrasalVerb>();
 
   /* 
     Get an array of phrasal verbs begin in
@@ -25,6 +26,10 @@ export class ExpansionListComponent {
       }
     })
     return verbs;
+  }
+
+  sendPhrasalVerb(phrasalVerb: PhrasalVerb) {
+    this.phrasalVerbEvent.emit(phrasalVerb);
   }
 
 }

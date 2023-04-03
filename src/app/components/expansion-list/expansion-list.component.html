@@ -33,7 +33,13 @@
                 Phrasal Verbs with {{item}}
               </mat-panel-description>
             </mat-expansion-panel-header>
-            <p *ngFor="let phrasalVerb of getVerbs(item)">{{phrasalVerb.verb}} {{phrasalVerb.firstPrep}} {{phrasalVerb.secondPrep}}</p>
+            <p 
+              class="expansion-p" 
+              *ngFor="let phrasalVerb of getVerbs(item)"
+              (click)="sendPhrasalVerb(phrasalVerb)"
+              >
+              {{phrasalVerb.verb}} {{phrasalVerb.firstPrep}} {{phrasalVerb.secondPrep}}
+            </p>
           </mat-expansion-panel>
         </div>
       
