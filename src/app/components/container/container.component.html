@@ -1,12 +1,25 @@
-<mat-grid-list cols="2" rowHeight="100vh">
-    <mat-grid-tile>
+<mat-grid-list cols="2" rowHeight="50vh">
+    <mat-grid-tile
+        [colspan]="1"
+        [rowspan]="2">
         <div class="container-grid-item">
             <app-expansion-list (phrasalVerbEvent)="setPhrasalVerb($event)" ></app-expansion-list>
         </div>
     </mat-grid-tile>
-    <mat-grid-tile>
+
+    <mat-grid-tile
+        [colspan]="1"
+        [rowspan]="1">
         <div class="container-grid-item">
             <app-card [phrasalVerb]="phrasalVerb"></app-card>
+        </div>
+    </mat-grid-tile>
+
+    <mat-grid-tile
+        [colspan]="1"
+        [rowspan]="1">
+        <div class="container-grid-item">
+            <app-card-game></app-card-game>
         </div>
     </mat-grid-tile>
 </mat-grid-list>

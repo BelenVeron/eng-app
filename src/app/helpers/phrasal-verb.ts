@@ -36,16 +36,16 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'To stop feeling angry, excited or nervous.',
         example: 'The interview was a disaster. I really need to calm down.',
         separable: true,
-        image: ''
+        image: 'https://img.freepik.com/premium-vector/man-doing-yoga-yogi-sitting-padmasana-lotus-pose-meditating-relaxing-calm-down-manage-stress_284092-1654.jpg'
     },
     {
         verb: 'catch',
         firstPrep: 'up',
         secondPrep: 'on',
-        definition: 'To do something quickly becaouse you are behind.',
+        definition: 'To do something quickly because you are behind.',
         example: 'I have to catch up on my work.',
         separable: false,
-        image: ''
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWXAHFj3JGNdUTZzu5rWddUMf2uswooTBwJw&usqp=CAU'
     },
     {
         verb: 'check',
@@ -54,7 +54,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'Arrive in the hotel on the first day and get the key.',
         example: 'We check in on the 20th.',
         separable: false,
-        image: ''
+        image: 'https://conceptodefinicion.de/wp-content/uploads/2013/09/check-in-2.jpg'
     },
     {
         verb: 'check',
@@ -63,7 +63,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'Write check mark in a list.',
         example: 'Well, I wanted to check off another item on my to-do list before I leave.',
         separable: true,
-        image: ''
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrXZyFYcFOoV1MncQTKR2EkxMEkir_JxR3XJntCj2_R_VKfV7l4MPtgTbQmqsOxnvebEg&usqp=CAU'
     },
     {
         verb: 'check',
@@ -72,7 +72,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'Leave the hotel on the last day and return the key.',
         example: 'We check out on the 22nd.',
         separable: false,
-        image: ''
+        image: 'https://www.serinf.it/wp-content/uploads/2022/07/Cover-blog-check-in-check-out.jpg'
     },
     {
         verb: 'come',
@@ -81,7 +81,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'Think of something to say or an idea.',
         example: `I'm not good at coming up with answers.`,
         separable: false,
-        image: ''
+        image: 'https://1.bp.blogspot.com/-KnG_evksFSI/XTlGXMJcDSI/AAAAAAAAFbk/VEpHG8HXss4QQs3CcDVtNgQ0ZtEVdM7owCLcBGAs/w1200-h630-p-k-no-nu/PV%2B-%2BTo%2Bcome%2Bup%2Bwith.png'
     },
     {
         verb: 'cross',
@@ -90,7 +90,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'To put a line through a mistake or something you don\' like.',
         example: 'You need to cross out one line to get the minimum prize.',
         separable: true,
-        image: ''
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSISYA-MWD4IVWYfx7QsKhvB18ncgw6YQ76Fw&usqp=CAU'
     },
     {
         verb: 'cut',
@@ -99,7 +99,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'Reduce.',
         example: `I'm trying to cut down on sugar.`,
         separable: false,
-        image: ''
+        image: 'https://i.dailymail.co.uk/i/newpix/2018/09/13/21/5023BD2D00000578-0-image-a-9_1536870700797.jpg'
     },
     {
         verb: 'drop',
@@ -108,7 +108,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'To take someone or something to a particular place.',
         example: `I dropped off my suit at the dry cleaner's.`,
         separable: true,
-        image: ''
+        image: 'https://englishunite.com/wp-content/uploads/2021/08/phrasal-1-drop-off.jpg'
     },
     {
         verb: 'end',
@@ -117,7 +117,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'Eventurally something happens, and the ending is surprising or unexpected.',
         example: 'After a few hours, I ended up choosing this title for my blog.',
         separable: false,
-        image: ''
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQliLxyakhkqkHXUFXvdpPZHbJ7VVH93dhK4Ke1f9LQJn2fA5WlePo64imSLABRpaQXlw0&usqp=CAU'
     },
     {
         verb: 'figure',
@@ -126,7 +126,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'To think and find a solution to a problem',
         example: 'I need to figure out how to get there.',
         separable: true,
-        image: ''
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU89-0NekepRf5q0lwn0JVHgjus3Ywl2StFQ&usqp=CAU'
     },
     {
         verb: 'fill',
@@ -135,7 +135,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'To complete a form or document with information.',
         example: `I'll start by filling out these spreadsheets.`,
         separable: true,
-        image: ''
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCfQrZVFZBk2D_gvCpKYVJwwIN_xx8OzSbZA&usqp=CAU'
     },
     {
         verb: 'get',
@@ -144,7 +144,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'Have a good relationship with other.',
         example: 'I get along with Trish. She is realy nice.',
         separable: false,
-        image: ''
+        image: 'https://www.wikihow.com/images/thumb/7/7c/Get-Along-with-Friends-Step-8.jpg/v4-460px-Get-Along-with-Friends-Step-8.jpg.webp'
     },
     {
         verb: 'get',
@@ -153,7 +153,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'To respond to someone via email, phone or message.',
         example: 'I shoul probably get back to Dan.',
         separable: false,
-        image: ''
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStmwcapN0Q3W4hd8kjVcBayVCHVe3ozzd7Qg&usqp=CAU'
     },
     {
         verb: 'get',
@@ -162,7 +162,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'To remove something.',
         example: 'I have a lot of old clothes, I want to get rid of..',
         separable: false,
-        image: ''
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeDPooL7PaYnYNSEfkGKxNQjJhk2UUVeg5aEoIhtiQalBa31OlcabgzdPd6o0f6x9vsjo&usqp=CAU'
     },
     {
         verb: 'get',
@@ -171,7 +171,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'Out of bed.',
         example: 'I usually get up very fast after wake up.',
         separable: true,
-        image: ''
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAHX5H7UvT2To1rQ6S05hT2tXl3hMeQhAzxA&usqp=CAU'
     },
     {
         verb: 'give',
@@ -180,7 +180,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'To give something to someone for free. It\'s not a present.',
         example: 'The company is giving away $3000 to the team that completes the hike the fastest.',
         separable: true,
-        image: ''
+        image: 'https://marketplace.canva.com/EAFQc7bJ0Ws/1/0/1600w/canva-colorful-simple-geometric-fitness-coach-giveaway-instagram-post-BVd7ZYOu1E8.jpg'
     },
     {
         verb: 'give',
@@ -189,7 +189,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'To quit because you are tired or have no motivation.',
         example: 'If a team decides to give up, they have to work an extra Saturday.',
         separable: false,
-        image: ''
+        image: 'https://cdn.tinybuddha.com/wp-content/uploads/2014/12/Tired-Man.jpg'
     },
     {
         verb: 'go',
@@ -198,7 +198,7 @@ export const PHRASAL_VERBS: PhrasalVerb[] = [
         definition: 'To continue with a plan even though there ara challenges. It\'s not a motivation.',
         example: 'If it rains, the plans will still go ahead.',
         separable: false,
-        image: ''
+        image: 'https://www.mansioningles.com/phrasal_verbs/imagenes/pv170.jpg'
     },
     {
         verb: 'go',

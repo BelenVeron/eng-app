@@ -8,18 +8,21 @@ import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { MatButtonModule } from '@angular/material/button';
 
 //////////////// Component ///////////////////
 import { CardComponent } from './components/card/card.component';
 import { ContainerComponent } from './components/container/container.component';
 import { ExpansionListComponent } from './components/expansion-list/expansion-list.component';
+import { CardGameComponent } from './components/card-game/card-game.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ExpansionListComponent,
     ContainerComponent,
-    CardComponent
+    CardComponent,
+    CardGameComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,8 @@ import { ExpansionListComponent } from './components/expansion-list/expansion-li
     MatExpansionModule,
     MatGridListModule,
     ScrollingModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
